@@ -1,0 +1,13 @@
+name: GiveADamage
+version: '1.0'
+main: yusama125718.giveadamage.GiveADamage
+api-version: 1.17
+
+commands:
+  mdamage:
+    description: send a diceroll
+    usage: /<command> [text] [text]
+
+parmissions:
+  mdamage.op:
+    default: op
